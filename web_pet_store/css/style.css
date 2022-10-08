@@ -1,0 +1,89 @@
+/***********GENERAL**********/
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+body {
+    height: 100%;
+}
+
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 176px;
+    background-color: #DCDFEE;
+}
+
+.logo {
+
+    width: 273px;
+    height: 160px;
+    margin-top: 23px;
+    margin-left: 33px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F8FC;
+}
+
+#wrapper {
+    max-width: 1500px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#accordionExample {
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 33px;
+}
+
+.rectangle {
+    background-color: white;
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 33px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 176px;
+    background-color: #DCDFEE;
+}
+
+footer p {
+    font-size: 30px;
+}
